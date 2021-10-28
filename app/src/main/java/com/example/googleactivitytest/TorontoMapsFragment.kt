@@ -11,12 +11,12 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 
 import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.GoogleMap as GoogleMap
 
 class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
 
@@ -41,8 +41,11 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
 
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
         mapFragment?.getMapAsync(this)
-        val rdGroup = view.findViewById(R.id.rdGroup) as RadioGroup
 
+    }
+    override fun onMapReady(map: GoogleMap) {
+        // Add some markers to the map, and add a data object to each marker.
+        val rdGroup = view?.findViewById(R.id.rdGroup) as RadioGroup
         rdGroup.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener { group, checkedId ->
             when (checkedId) {
                 R.id.rdStandard-> {
@@ -56,10 +59,6 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
                 }
             }
         })
-    }
-    override fun onMapReady(map: GoogleMap) {
-        // Add some markers to the map, and add a data object to each marker.
-
 
         var place1: LatLng?=arguments?.getParcelable("Place1")
         var place2: LatLng?=arguments?.getParcelable("Place2")
