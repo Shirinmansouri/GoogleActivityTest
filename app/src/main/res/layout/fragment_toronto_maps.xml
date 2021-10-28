@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TorontoMapsFragment">
+
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+>
+
+        <RadioButton
+            android:id="@+id/rdStandard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="0dp"
+            android:text="Standard"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"/>
+
+        <RadioButton
+            android:id="@+id/rdSatellite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satellite"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="@+id/rdStandard"
+            app:layout_constraintTop_toBottomOf="parent" />
+        <RadioButton
+            android:id="@+id/rdHybrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hybrid"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="@+id/rdSatellite"
+            app:layout_constraintTop_toBottomOf="parent"/>
+    </RadioGroup>
+</fragment>
