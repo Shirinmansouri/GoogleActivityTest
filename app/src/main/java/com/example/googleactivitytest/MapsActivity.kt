@@ -18,6 +18,35 @@ import com.example.googleactivitytest.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.model.Marker
 
 class MapsActivity : AppCompatActivity(){
+    //Toronto
+    private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
+    private var  place2= LatLng(43.73527367489028, -79.4188681293801)
+    private var  place3= LatLng(43.652460680166314, -79.38180802916467)
+    private var  place4=LatLng(43.654508784002495, -79.39622758480662)
+    private var  place5=LatLng(43.654508784002495, -79.39622758480662)
+
+    //New York
+    private var  place21 = LatLng(40.74086502396428, -74.00874221962006)
+    private var  place22= LatLng(40.781034751402764, -73.96755122331288)
+    private var  place23= LatLng(40.633585983012786, -73.95223509475834)
+    private var  place24=LatLng(40.745956476754735, -74.17139485503111)
+    private var  place25=LatLng(40.853327959528876, -73.87692613081053)
+
+    //Toronto
+    private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
+    private var  place2= LatLng(43.73527367489028, -79.4188681293801)
+    private var  place3= LatLng(43.652460680166314, -79.38180802916467)
+    private var  place4=LatLng(43.654508784002495, -79.39622758480662)
+    private var  place5=LatLng(43.654508784002495, -79.39622758480662)
+
+    //Toronto
+    private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
+    private var  place2= LatLng(43.73527367489028, -79.4188681293801)
+    private var  place3= LatLng(43.652460680166314, -79.38180802916467)
+    private var  place4=LatLng(43.654508784002495, -79.39622758480662)
+    private var  place5=LatLng(43.654508784002495, -79.39622758480662)
+
+    //Toronto
     private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
     private var  place2= LatLng(43.73527367489028, -79.4188681293801)
     private var  place3= LatLng(43.652460680166314, -79.38180802916467)
