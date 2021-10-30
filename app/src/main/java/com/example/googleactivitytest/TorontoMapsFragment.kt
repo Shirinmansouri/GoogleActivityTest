@@ -66,6 +66,7 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
         var place4: LatLng?=arguments?.getParcelable("Place4")
         var place5: LatLng?=arguments?.getParcelable("Place5")
 
+        /*
         var place21: LatLng?=arguments?.getParcelable("Place21")
         var place22: LatLng?=arguments?.getParcelable("Place22")
         var place23: LatLng?=arguments?.getParcelable("Place23")
@@ -89,6 +90,7 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
         var place53: LatLng?=arguments?.getParcelable("Place53")
         var place54: LatLng?=arguments?.getParcelable("Place54")
         var place55: LatLng?=arguments?.getParcelable("Place55")
+        */
 
         markerPlace1 = map.addMarker(
             place1?.let {
@@ -131,6 +133,7 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
         )
         markerPlace5.tag = 0
 
+        /*
         markerPlace1 = map.addMarker(
             place21?.let {
                 MarkerOptions()
@@ -294,6 +297,7 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
             }
         )
         markerPlace5.tag = 0
+        */
 
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(place1, 9f))
         // Set a listener for marker click.
