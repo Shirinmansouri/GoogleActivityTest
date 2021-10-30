@@ -32,26 +32,33 @@ class MapsActivity : AppCompatActivity(){
     private var  place24=LatLng(40.745956476754735, -74.17139485503111)
     private var  place25=LatLng(40.853327959528876, -73.87692613081053)
 
-    //Toronto
-    private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
-    private var  place2= LatLng(43.73527367489028, -79.4188681293801)
-    private var  place3= LatLng(43.652460680166314, -79.38180802916467)
-    private var  place4=LatLng(43.654508784002495, -79.39622758480662)
-    private var  place5=LatLng(43.654508784002495, -79.39622758480662)
+    //Essen
+    private var  place31 = LatLng(51.45003694684787, 7.004779330189205)
+    private var  place32= LatLng(51.490929898583374, 7.04389845992266)
+    private var  place33= LatLng(51.43968681269753, 6.806211651108742)
+    private var  place34=LatLng(51.460809500622915, 7.000758834980649)
+    private var  place35=LatLng(51.41479480539004, 7.009556476882874)
 
-    //Toronto
-    private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
-    private var  place2= LatLng(43.73527367489028, -79.4188681293801)
-    private var  place3= LatLng(43.652460680166314, -79.38180802916467)
-    private var  place4=LatLng(43.654508784002495, -79.39622758480662)
-    private var  place5=LatLng(43.654508784002495, -79.39622758480662)
+    //London
+    private var  place41 = LatLng(51.50622078425671, -0.12421192748611999)
+    private var  place42= LatLng(51.49110588637827, -0.28921920027077436)
+    private var  place43= LatLng(51.52366729738392, -0.12769731404300835)
+    private var  place44=LatLng(51.48069150408709, -0.15930412363876092)
+    private var  place45=LatLng(51.52425568502064, -0.15434684994062953)
 
-    //Toronto
-    private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
-    private var  place2= LatLng(43.73527367489028, -79.4188681293801)
-    private var  place3= LatLng(43.652460680166314, -79.38180802916467)
-    private var  place4=LatLng(43.654508784002495, -79.39622758480662)
-    private var  place5=LatLng(43.654508784002495, -79.39622758480662)
+    //Madrid
+    private var  place51 = LatLng(40.39540948538992, -3.6979339058477287)
+    private var  place52= LatLng(40.442732994403876, -3.638321130814093)
+    private var  place53= LatLng(40.45168806699517, -3.730172563481489)
+    private var  place54=LatLng(40.520173777336844, -3.655435050044181)
+    private var  place55=LatLng(40.37928273020298, -3.6123548032656796)
+
+    //Los Angeles
+    private var  place61 = LatLng(34.07041529073723, -118.35974642739791)
+    private var  place62= LatLng(34.06145764470279, -118.24933721473037)
+    private var  place63= LatLng(34.12619360358506, -118.30108886955652)
+    private var  place64=LatLng(34.18301527498086, -118.41884856946494)
+    private var  place65=LatLng(34.084689649593294, -118.47378020502894)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
