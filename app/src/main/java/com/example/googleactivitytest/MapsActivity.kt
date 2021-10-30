@@ -32,7 +32,7 @@ class MapsActivity : AppCompatActivity(){
     private var  place24=LatLng(40.745956476754735, -74.17139485503111)
     private var  place25=LatLng(40.853327959528876, -73.87692613081053)
 
-    //Essen
+    //Essen, Germany
     private var  place31 = LatLng(51.45003694684787, 7.004779330189205)
     private var  place32= LatLng(51.490929898583374, 7.04389845992266)
     private var  place33= LatLng(51.43968681269753, 6.806211651108742)
