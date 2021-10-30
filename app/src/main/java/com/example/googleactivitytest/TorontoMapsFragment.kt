@@ -66,6 +66,30 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
         var place4: LatLng?=arguments?.getParcelable("Place4")
         var place5: LatLng?=arguments?.getParcelable("Place5")
 
+        var place21: LatLng?=arguments?.getParcelable("Place21")
+        var place22: LatLng?=arguments?.getParcelable("Place22")
+        var place23: LatLng?=arguments?.getParcelable("Place23")
+        var place24: LatLng?=arguments?.getParcelable("Place24")
+        var place25: LatLng?=arguments?.getParcelable("Place25")
+
+        var place31: LatLng?=arguments?.getParcelable("Place31")
+        var place32: LatLng?=arguments?.getParcelable("Place32")
+        var place33: LatLng?=arguments?.getParcelable("Place33")
+        var place34: LatLng?=arguments?.getParcelable("Place34")
+        var place35: LatLng?=arguments?.getParcelable("Place35")
+
+        var place41: LatLng?=arguments?.getParcelable("Place41")
+        var place42: LatLng?=arguments?.getParcelable("Place42")
+        var place43: LatLng?=arguments?.getParcelable("Place43")
+        var place44: LatLng?=arguments?.getParcelable("Place44")
+        var place45: LatLng?=arguments?.getParcelable("Place45")
+
+        var place51: LatLng?=arguments?.getParcelable("Place51")
+        var place52: LatLng?=arguments?.getParcelable("Place52")
+        var place53: LatLng?=arguments?.getParcelable("Place53")
+        var place54: LatLng?=arguments?.getParcelable("Place54")
+        var place55: LatLng?=arguments?.getParcelable("Place55")
+
         markerPlace1 = map.addMarker(
             place1?.let {
                 MarkerOptions()

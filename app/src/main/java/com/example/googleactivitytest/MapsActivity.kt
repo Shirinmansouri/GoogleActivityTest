@@ -18,6 +18,7 @@ import com.example.googleactivitytest.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.model.Marker
 
 class MapsActivity : AppCompatActivity(){
+
     //Toronto
     private var  place1 = LatLng(43.735446889615886, -79.40569130382907)
     private var  place2= LatLng(43.73527367489028, -79.4188681293801)
@@ -60,6 +61,7 @@ class MapsActivity : AppCompatActivity(){
     private var  place64=LatLng(34.18301527498086, -118.41884856946494)
     private var  place65=LatLng(34.084689649593294, -118.47378020502894)
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
      setContentView(R.layout.activity_maps)
@@ -76,42 +78,42 @@ class MapsActivity : AppCompatActivity(){
                     1 -> {
                          place1 = LatLng(43.735446889615886, -79.40569130382907)
                          place2= LatLng(43.81730485135306, -79.29177183465687)
-                          place3= LatLng(43.81023383416433, -79.45205565335833)
+                         place3= LatLng(43.81023383416433, -79.45205565335833)
                          place4=LatLng(43.83087554323812, -79.30395752172)
                          place5=LatLng(43.737906929116576, -79.4189862745749)
                         loadFragment(TorontoMapsFragment())
                     }
                     2 -> {
-                        place1 = LatLng(43.735446889615886, -79.40569130382907)
-                        place2= LatLng(43.73527367489028, -79.4188681293801)
-                        place3= LatLng(43.652460680166314, -79.38180802916467)
-                        place4=LatLng(43.654508784002495, -79.39622758480662)
-                        place5=LatLng(43.654508784002495, -79.39622758480662)
-                        loadFragment(TorontoMapsFragment())
+                        place21 = LatLng(40.74086502396428, -74.00874221962006)
+                        place22= LatLng(40.781034751402764, -73.96755122331288)
+                        place23= LatLng(40.633585983012786, -73.95223509475834)
+                        place24=LatLng(40.745956476754735, -74.17139485503111)
+                        place25=LatLng(40.853327959528876, -73.87692613081053)
+                        loadFragment(NewYorkMapsFragment())
                     }
                     3 -> {
-                        place1 = LatLng(43.735446889615886, -79.40569130382907)
-                        place2= LatLng(43.73527367489028, -79.4188681293801)
-                        place3= LatLng(43.652460680166314, -79.38180802916467)
-                        place4=LatLng(43.654508784002495, -79.39622758480662)
-                        place5=LatLng(43.654508784002495, -79.39622758480662)
-                        loadFragment(TorontoMapsFragment())
+                        place31 = LatLng(51.45003694684787, 7.004779330189205)
+                        place32= LatLng(51.490929898583374, 7.04389845992266)
+                        place33= LatLng(51.43968681269753, 6.806211651108742)
+                        place34=LatLng(51.460809500622915, 7.000758834980649)
+                        place35=LatLng(51.41479480539004, 7.009556476882874)
+                        loadFragment(EssenMapsFragment())
                     }
                     4 -> {
-                        place1 = LatLng(43.735446889615886, -79.40569130382907)
-                        place2= LatLng(43.73527367489028, -79.4188681293801)
-                        place3= LatLng(43.652460680166314, -79.38180802916467)
-                        place4=LatLng(43.654508784002495, -79.39622758480662)
-                        place5=LatLng(43.654508784002495, -79.39622758480662)
-                        loadFragment(TorontoMapsFragment())
+                        place41 = LatLng(51.50622078425671, -0.12421192748611999)
+                        place42= LatLng(51.49110588637827, -0.28921920027077436)
+                        place43= LatLng(51.52366729738392, -0.12769731404300835)
+                        place44=LatLng(51.48069150408709, -0.15930412363876092)
+                        place45=LatLng(51.52425568502064, -0.15434684994062953)
+                        loadFragment(LondonMapsFragment())
                     }
                     5 -> {
-                        place1 = LatLng(43.735446889615886, -79.40569130382907)
-                        place2= LatLng(43.73527367489028, -79.4188681293801)
-                        place3= LatLng(43.652460680166314, -79.38180802916467)
-                        place4=LatLng(43.654508784002495, -79.39622758480662)
-                        place5=LatLng(43.654508784002495, -79.39622758480662)
-                        loadFragment(TorontoMapsFragment())
+                        place51 = LatLng(40.39540948538992, -3.6979339058477287)
+                        place52= LatLng(40.442732994403876, -3.638321130814093)
+                        place53= LatLng(40.45168806699517, -3.730172563481489)
+                        place54=LatLng(40.520173777336844, -3.655435050044181)
+                        place55=LatLng(40.37928273020298, -3.6123548032656796)
+                        loadFragment(MadridMapsFragment())
                     }
                 }
             }
@@ -127,6 +129,31 @@ class MapsActivity : AppCompatActivity(){
         bundle.putParcelable("Place3", place3)
         bundle.putParcelable("Place4", place4)
         bundle.putParcelable("Place5", place5)
+
+        bundle.putParcelable("Place21", place21)
+        bundle.putParcelable("Place22", place22)
+        bundle.putParcelable("Place23", place23)
+        bundle.putParcelable("Place24", place24)
+        bundle.putParcelable("Place25", place25)
+
+        bundle.putParcelable("Place31", place31)
+        bundle.putParcelable("Place32", place32)
+        bundle.putParcelable("Place33", place33)
+        bundle.putParcelable("Place34", place34)
+        bundle.putParcelable("Place35", place35)
+
+        bundle.putParcelable("Place41", place41)
+        bundle.putParcelable("Place42", place42)
+        bundle.putParcelable("Place43", place43)
+        bundle.putParcelable("Place44", place44)
+        bundle.putParcelable("Place45", place45)
+
+        bundle.putParcelable("Place51", place51)
+        bundle.putParcelable("Place52", place52)
+        bundle.putParcelable("Place53", place53)
+        bundle.putParcelable("Place54", place54)
+        bundle.putParcelable("Place55", place55)
+
         fragment.setArguments(bundle)
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.CityTypeLayout, fragment)
