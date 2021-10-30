@@ -131,6 +131,170 @@ class TorontoMapsFragment : Fragment(), OnMapReadyCallback  {
         )
         markerPlace5.tag = 0
 
+        markerPlace1 = map.addMarker(
+            place21?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place21")
+            }
+        )
+        markerPlace1.tag = 0
+        markerPlace2 = map.addMarker(
+            place22?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place22")
+            }
+        )
+        markerPlace2.tag = 0
+        markerPlace3 = map.addMarker(
+            place23?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place23")
+            }
+        )
+        markerPlace3.tag = 0
+        markerPlace4 = map.addMarker(
+            place24?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place24")
+            }
+        )
+        markerPlace4.tag = 0
+        markerPlace5 = map.addMarker(
+            place25?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place25")
+            }
+        )
+        markerPlace5.tag = 0
+
+        markerPlace1 = map.addMarker(
+            place31?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place31")
+            }
+        )
+        markerPlace1.tag = 0
+        markerPlace2 = map.addMarker(
+            place32?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place32")
+            }
+        )
+        markerPlace2.tag = 0
+        markerPlace3 = map.addMarker(
+            place33?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place33")
+            }
+        )
+        markerPlace3.tag = 0
+        markerPlace4 = map.addMarker(
+            place34?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place34")
+            }
+        )
+        markerPlace4.tag = 0
+        markerPlace5 = map.addMarker(
+            place35?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place35")
+            }
+        )
+        markerPlace5.tag = 0
+
+        markerPlace1 = map.addMarker(
+            place41?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place41")
+            }
+        )
+        markerPlace1.tag = 0
+        markerPlace2 = map.addMarker(
+            place42?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place42")
+            }
+        )
+        markerPlace2.tag = 0
+        markerPlace3 = map.addMarker(
+            place43?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place43")
+            }
+        )
+        markerPlace3.tag = 0
+        markerPlace4 = map.addMarker(
+            place44?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place44")
+            }
+        )
+        markerPlace4.tag = 0
+        markerPlace5 = map.addMarker(
+            place45?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place45")
+            }
+        )
+        markerPlace5.tag = 0
+
+        markerPlace1 = map.addMarker(
+            place51?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place51")
+            }
+        )
+        markerPlace1.tag = 0
+        markerPlace2 = map.addMarker(
+            place52?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place52")
+            }
+        )
+        markerPlace2.tag = 0
+        markerPlace3 = map.addMarker(
+            place53?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place53")
+            }
+        )
+        markerPlace3.tag = 0
+        markerPlace4 = map.addMarker(
+            place54?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place54")
+            }
+        )
+        markerPlace4.tag = 0
+        markerPlace5 = map.addMarker(
+            place55?.let {
+                MarkerOptions()
+                    .position(it)
+                    .title("place55")
+            }
+        )
+        markerPlace5.tag = 0
+
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(place1, 9f))
         // Set a listener for marker click.
        // map.setOnMarkerClickListener(this)
